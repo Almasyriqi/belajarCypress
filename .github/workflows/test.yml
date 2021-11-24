@@ -16,5 +16,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           # Specify Browser since container image is compile with Firefox
-          browser: firefox
-          spec: ./cypress/integration/1-getting-started/*.js
+          - browser: firefox
+          - spec: ./cypress/integration/1-getting-started/*.js
